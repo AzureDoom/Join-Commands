@@ -1,0 +1,25 @@
+{
+    "Group": "com.azuredoom",
+    "Name": "joincommands",
+    "Version": "1.0.0",
+    "Description": "Runs a configurable set of commands on a player joining",
+    "Authors": [
+        {
+            "Name": "AzureDoom"
+        }
+    ],
+    "Website": "https://azuredoom.com/",
+    "ServerVersion": "2026.03.26-89796e57b",
+    "Dependencies": {
+        "Hytale:AssetModule": "*"
+    },
+    "OptionalDependencies": {
+        "HelpChat:PlaceholderAPI": "*"
+    },
+    "DisabledByDefault": false,
+    "Main": "com.azuredoom.joincommands.JoinCommandsMod",
+    "IncludesAssetPack": false,
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
+}
