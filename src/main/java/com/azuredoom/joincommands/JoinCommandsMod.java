@@ -14,6 +14,7 @@ import com.hypixel.hytale.server.core.util.Config;
 import java.util.concurrent.CompletableFuture;
 import java.util.logging.Level;
 
+import com.azuredoom.joincommands.compat.HStats;
 import com.azuredoom.joincommands.compat.PlaceholderAPICompat;
 
 public class JoinCommandsMod extends JavaPlugin {
@@ -45,6 +46,7 @@ public class JoinCommandsMod extends JavaPlugin {
             LOGGER.atInfo().log("PlaceholderAPI detected, placeholders will be replaced in join commands");
         }
         this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, this::onPlayerReady);
+        new HStats("398f3a4c-2e1d-4d49-bcba-59d0fa7a9009", "1.0.1", LOGGER);
     }
 
     @Override

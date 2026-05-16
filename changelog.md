@@ -1,3 +1,3 @@
-v1.0.0
+v1.0.1
 
-- First release of mod, see description for details of mods features.
+- Implemented HStats support.
