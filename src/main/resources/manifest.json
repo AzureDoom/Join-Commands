@@ -1,7 +1,7 @@
 {
     "Group": "com.azuredoom",
     "Name": "joincommands",
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Description": "Runs a configurable set of commands on a player joining",
     "Authors": [
         {
@@ -9,7 +9,7 @@
         }
     ],
     "Website": "https://github.com/AzureDoom/JoinCommands",
-    "ServerVersion": "2026.03.26-89796e57b",
+    "ServerVersion": "0.5.1",
     "Dependencies": {
         "Hytale:AssetModule": "*"
     },
