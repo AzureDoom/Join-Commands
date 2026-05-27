@@ -1,3 +1,3 @@
-v1.0.2
+v1.0.3
 
-- Update 5 supported.
+- Fixes update 5 server matching issue.
